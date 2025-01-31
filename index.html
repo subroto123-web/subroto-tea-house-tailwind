@@ -34,36 +34,86 @@
 </head>
 
 <body>
-    <main class="max-w-screen-xl mx-auto px-28 lg:p-16">
+    <main class="max-w-screen-xl mx-auto px-16 lg:p-16">
 
         <!-- header tag -->
-         <header class="flex pt-10 mb-20">
+        <header class=" md:flex lg:flex pt-10 mb-20">
             <!-- text section -->
-             <div>
-                <h1 class="text-7xl uppercase font-extrabold mb-4">It's good <br>
+            <div>
+                <h1 class="text-3xl md:text-5xl lg:text-7xl uppercase font-extrabold mb-4">It's good <br>
                     tea time at The <br>
-                     Tea House</h1>
-                <p class="text-gray-500 font-medium "></p> and Botanical Solutions Supplier Give Optimum <br> Satisfaction To Your Taste Buds.</p>
-                <button class="mt-6 bg-gradient-to-r from-orange-400 to-red-500 px-7 py-4 rounded-lg text-white text-xl">Explore More <i class="fa-solid fa-arrow-right fa-rotate-by" style="--fa-rotate-angle: 315deg; color:white"></i> </button>
-             </div>
-             <!-- image section  -->
-              <div class="relative">
+                    Tea House</h1>
+                <p class="text-gray-500 font-medium "></p> and Botanical Solutions Supplier Give Optimum <br>
+                Satisfaction To Your Taste Buds.</p>
+                <button
+                    class="mt-6 bg-gradient-to-r from-orange-400 to-red-500 px-7 py-4 rounded-lg text-white text-xl">Explore
+                    More <i class="fa-solid fa-arrow-right fa-rotate-by"
+                        style="--fa-rotate-angle: 315deg; color:white"></i> </button>
+            </div>
+            <!-- image section  -->
+            <div class="relative">
                 <!-- image -->
-                <div class="w-full">
-                   <img src="./images/banner.png" alt="">
+                <div class="">
+                    <img class="w-full" src="./images/banner.png" alt="">
                 </div>
                 <!-- card -->
-                <div class="absolute flex items-center  bg-white shadow-xl px-2 py-2 rounded-lg mb-20 top-28 md:top-96 lg:top-96 md:left-24 lg:left-28 ">
+                <div
+                    class="absolute flex items-center  bg-white shadow-xl px-2 py-2 rounded-lg mb-20 top-28 md:top-96 lg:top-96 md:left-24 lg:left-28 ">
                     <!-- icon -->
                     <div class="text-2xl text-amber-400 mr-2"><i class="fa-solid fa-star"></i></div>
                     <!-- text -->
-                     <div>
+                    <div>
                         <h2 class="text-2xl font-extrabold">5.00</h2>
                         <p class="text-gray-500"> Trust Pilot Ratings</p>
-                     </div>
+                    </div>
                 </div>
-              </div>
-         </header>
+            </div>
+        </header>
+        <section class="my-9">
+            <!-- Feature section -->
+            <div class="text-center mt-10 mx-auto">
+                <h2 class="text-4xl font-bold mb-5">Our Featured Products</h2>
+                <p class="text-gray-600 mb-12">There are many variations of passages of Lorem Ipsum available, but the
+                    majority have suffered alteration in some form,<br> by injected humour, or randomised words which don't
+                    look even slightly believable. </p>
+            </div>
+            <div class="grid grid-cols-1
+              lg:grid-cols-4 md:grid-cols-2 w-full mx-auto p-8 gap-12 text-center">
+                <!-- grid 1 -->
+                <div class="bg-yellow-50 flex flex-col shadow-lg text-center justify-center px-4">
+                    <img class="w-36 justify-center h-56 mx-auto" src="./images/tea-1.png" alt="">
+                    <div class="p-4">
+                        <h3 class="text-2xl font-bold m-4">Milk Tea</h3>
+                        <p>Creamer could be replaced by fresh milk</p>
+                    </div>
+                </div>
+                <!-- grid 2 -->
+                <div class="bg-yellow-50 flex flex-col shadow-lg text-center justify-center px-4">
+                    <img class="w-36 justify-center h-56 mx-auto" src="./images/tea-2.png" alt="">
+                    <div class="p-4">
+                        <h3 class="text-2xl font-bold m-4">Black Tea</h3>
+                        <p>Creamer could be replaced by fresh milk</p>
+                    </div>
+                </div>
+                <!-- grid 3 -->
+                <div class="bg-yellow-50 flex flex-col shadow-lg text-center justify-center px-4">
+                    <img class="w-36 justify-center h-56 mx-auto" src="./images/tea-3.png" alt="">
+                    <div class="p-4">
+                        <h3 class="text-2xl font-bold m-4">Lemon Tea</h3>
+                        <p>Creamer could be replaced by fresh milk</p>
+                    </div>
+                </div>
+                <!-- grid 4 -->
+                <div class="bg-yellow-50 flex flex-col shadow-lg text-center justify-center px-4">
+                    <img class="w-36 justify-center h-56 mx-auto" src="./images/tea-4.png" alt="">
+                    <div class="p-4">
+                        <h3 class="text-2xl font-bold m-4">Green Tea</h3>
+                        <p>Creamer could be replaced by fresh milk</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
     </main>
 </body>
 
